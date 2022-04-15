@@ -1,0 +1,109 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.bar {
+  width: 30px;
+  height: 1px;
+  background-color: black;
+}
+
+header {
+  padding: 10px;
+  background-color: #d5d5d5;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  right: 0;
+  left: 0;
+  z-index: 1030;
+}
+
+header ul {
+  display: flex;
+}
+
+header li {
+  padding: 0 20px;
+}
+
+#profileImage {
+  width: 100%;
+}
+
+main {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-bottom: 100px;
+}
+
+#port {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-bottom: 100px;
+}
+
+#port img {
+  width: 500px;
+  margin-bottom: 50px;
+}
+
+#contact {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-bottom: 100px;
+}
+
+#contact li a {
+  display: flex;
+}
+
+#contact img {
+  width: 20px;
+}
+
+footer {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background-color: black;
+  padding: 150px 0;
+}
+
+footer h4 {
+  color: #aa9159;
+  font-size: 30px;
+}
+
+footer p {
+  color: white;
+  font-size: 18px;
+}
+
+footer h2 {
+  font-size: 30px;
+  color: #777777;
+}
+
+footer .email {
+  color: #aa9159;
+  font-size: 15px;
+}
