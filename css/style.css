@@ -80,6 +80,15 @@ main {
   width: 20px;
 }
 
+.top_button {
+  background-color: #aa9159;
+  padding: 2px 5px;
+  color: white;
+  position: fixed;
+  right: 10px;
+  top: 50%;
+}
+
 footer {
   display: flex;
   align-items: center;
